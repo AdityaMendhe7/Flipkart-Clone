@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Rubik+80s+Fade&family=Sofia+Sans+Condensed:wght@100&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 10vh;
+    font-family: 'Lobster', cursive;
+    border: 3px solid white;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    border: 3px solid white;
+
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    /* display: inline; */
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+nav ul {
+    height: 80px;
+    display: flex;
+    justify-self: start;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    padding: 0 25px;
+    width: 88px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 23px;
+    width: 30vw;
+    border-radius: 8px;
+    margin: 0 12px 0 59px;
+    padding: 0 5px;
+}
+.container {
+    min-height: calc(100vh - 80px - 10vh);
+}
+.src-btn{
+    font-family: 'Lobster', cursive;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    margin: 12px 20px;
+    overflow: hidden;
+}
+.cart{
+    max-width: 90vw;
+    margin: auto;
+}
+.cart h2{
+    font-family: 'Lobster', cursive;
+}
+.lines p{
+    font-family: 'Lobster', cursive;
+    padding: 0 30px;
+}
+
+.cart-items{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 12vw;
+    margin: 0 40px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+}
+.slider img:hover{
+    width: 100vw;
+      
+}

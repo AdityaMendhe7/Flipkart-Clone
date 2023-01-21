@@ -1,0 +1,16 @@
+@media screen and (max-width:1000px) {
+    
+    .slider{
+        height: 100vh;
+        width: 100vw;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        margin: 12px 0;
+    }
+    
+}
